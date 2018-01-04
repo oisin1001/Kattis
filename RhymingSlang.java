@@ -1,11 +1,10 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+//import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RhymingSlang {
     public static void main(String[] args) {
-        File f = new File("src/RhymingSlang.txt");
+//        File f = new File("/txt/RhymingSlang.txt");
         Scanner sc = new Scanner(System.in);
         String word = sc.next();
         int numberOfLines = sc.nextInt();
@@ -15,12 +14,12 @@ public class RhymingSlang {
             boolean match = false;
             String line = sc.nextLine();
             Scanner lc = new Scanner(line);
-            while (lc.hasNext() && match == false) {
+            while (lc.hasNext() && !match) {
                 if (word.endsWith(lc.next())) {
                     match = true;
                 }
             }
-            if (match == true) {
+            if (match) {
                 lc = new Scanner(line);
                 while (lc.hasNext()) {
                     sounds.add(lc.next());
