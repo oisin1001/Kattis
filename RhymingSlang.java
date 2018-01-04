@@ -33,18 +33,18 @@ public class RhymingSlang {
         sc.nextLine();
         while(numberOfLines > 0){
             boolean found = false;
-          String phrase = sc.nextLine();
-          for(String endings : sounds) {
-              if (phrase.endsWith(endings)) {
-                  found = true;
-              }
-          }
+            String phrase = sc.nextLine();
+            for(String endings : sounds) {
+                if (phrase.endsWith(endings)) {
+                    found = true;
+                }
+            }
             if (found) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
             }
-          numberOfLines--;
+            numberOfLines--;
         }
     }
 
