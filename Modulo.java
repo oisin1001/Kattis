@@ -1,3 +1,5 @@
+// Link - https://open.kattis.com/problems/modulo
+
 import java.util.Scanner;
 
 public class Modulo {

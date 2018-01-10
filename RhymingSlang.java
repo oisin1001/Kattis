@@ -1,10 +1,10 @@
-//import java.io.File;
+// Link - https://open.kattis.com/problems/rhyming
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RhymingSlang {
     public static void main(String[] args) {
-//        File f = new File("/txt/RhymingSlang.txt");
         Scanner sc = new Scanner(System.in);
         String word = sc.next();
         int numberOfLines = sc.nextInt();

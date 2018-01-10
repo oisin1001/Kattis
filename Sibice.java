@@ -1,3 +1,5 @@
+// Link - https://open.kattis.com/problems/sibice
+
 import java.util.Scanner;
 
 public class Sibice {

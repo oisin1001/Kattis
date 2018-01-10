@@ -1,3 +1,5 @@
+// Link - https://open.kattis.com/problems/grassseed
+
 import java.util.Scanner;
 
 public class GrassSeedInc {
