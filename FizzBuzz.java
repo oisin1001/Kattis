@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class FizzBuzz {
+    public static void main(String[] args) {
+
+    }
 }
